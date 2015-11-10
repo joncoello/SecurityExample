@@ -6,6 +6,7 @@ using System.Web.Http;
 
 namespace SecurityPipeline.Pipeline
 {
+    [TestAuthenticationFilter]
     public class TestController : ApiController
     {
         public IHttpActionResult Get() {
