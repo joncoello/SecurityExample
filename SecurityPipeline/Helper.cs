@@ -21,7 +21,7 @@ namespace SecurityPipeline
             {
                 Debug.WriteLine("user: " + principal.Identity.Name);
             }
-            Debug.WriteLine("\n");
+            //Debug.WriteLine("\n");
         }
     }
 }
