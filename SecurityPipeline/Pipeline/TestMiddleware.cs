@@ -19,9 +19,9 @@ namespace SecurityPipeline.Pipeline
 
             var context = new OwinContext(env);
 
-            // authentcation
-            context.Request.User = 
-                new GenericPrincipal(new GenericIdentity("dom"), new string[] { });
+            //// authentcation
+            //context.Request.User = 
+            //    new GenericPrincipal(new GenericIdentity("dom"), new string[] { });
 
             Helper.Write("Middleware", context.Request.User);
 
